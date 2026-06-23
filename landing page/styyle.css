@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+.nav{
+    background:#111;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    padding:20px 50px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-right:20px;
+}
+
+nav ul li a{
+    color:black;
+    text-decoration:none;
+}
+
+.hero{
+    background-color: blueviolet;
+    color: white;
+    text-align:center;
+    padding:100px 20px;
+    /*background:linear-gradient(135deg,#4facfe,#00f2fe);
+     color:white;*/
+}
+
+.hero h1{
+    background-color: blueviolet;
+    color: white;
+    font-size:45px;
+    margin-bottom:20px;
+}
+
+.hero button{
+    background-color: yellow;
+    color :black;
+    margin-top:20px;
+    padding:12px 25px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.features{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding:60px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    width:250px;
+    text-align:center;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.courses{
+    text-align:center;
+    padding:50px;
+}
+
+.course-box{
+    background:#007bff;
+    color:white;
+    padding:20px;
+    margin:10px auto;
+    width:250px;
+    border-radius:8px;
+}
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
